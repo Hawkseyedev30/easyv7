@@ -1,0 +1,821 @@
+GET /BAY.KOL.Corp.WebSite/Common/Login.aspx HTTP/1.1
+Host: www.krungsribizonline.com
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: th,en;q=0.9
+Cookie: ASP.NET_SessionId=0344auc2uotcmyluts0eapgl; PD_STATEFUL_0e5e24c4-2849-11ec-8028-005056963270=%2FBAY.KOL.Corp.WebSite; KS_Cookie=!WVjqRLjIDU4eEkpF2K6W4qRnVN/XG1PPC6uw3trV/zD7sVRCkR2FVQ/E+hCw3yUMadvaxXFuEvtrBc4=
+
+HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+date: Sat, 08 Mar 2025 08:14:48 GMT
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+x-old-content-length: 54977
+transfer-encoding: chunked
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+cache-control: no-cache, no-store, must-revalidate, max-age=0
+expires: -1
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'none'; img-src 'self' data:; frame-src 'self' https://baas.krungsri.com; frame-ancestors 'self';
+strict-transport-security: max-age=31536000; includeSubDomains;preload
+pragma: no-cache
+x-ua-compatible: IE=edge
+
+
+
+<!DOCTYPE HTML>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1, min-scale=1, user-scalable=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><link rel="shortcut icon" href="../Images/logo/logo.png?version=20151026.01" type="image/x-icon" /><title>
+	Krungsri Biz Online
+</title><link rel="stylesheet" href="../css/normalize.css?version=20151026.01" type="text/css" media="screen" /><link rel="stylesheet" href="../theme/sme/css/style-login.css?version=20220330.02" type="text/css" media="screen" /><link rel="stylesheet" href="../theme/sme/css/style-login-custom.css?version=20151026.02" type="text/css" media="screen" /><link href="../theme/sme/css/style-register-aof.css?version=20151026.01" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 7]><script type="text/javascript" src="js/iepngfix_tilebg.js?version=20151026.01"></script><![endif]-->
+    
+    <script type="text/javascript">
+        function clearText(txtBoxes) {
+            if (txtBoxes.length == 0) return;
+            for (var i = 0; i < txtBoxes.length ; i++) {
+                txtBoxes[i].value = "";
+            }
+        }
+        function setClearTextTimer(selector) {
+            var maxTimeout = 100;
+            var totalTime = 0;
+            var timeInterval = 5;
+            var txtBoxes = document.querySelectorAll(selector);
+            var timer = setInterval(function () {
+                //console.log(totalTime)
+                clearText(txtBoxes);
+                totalTime = totalTime + timeInterval;
+                if (totalTime >= maxTimeout) clearTimeout(timer);
+            }, timeInterval);
+        }
+        document.addEventListener('readystatechange', function () {
+            //setClearTextTimer('.password-login, .username-login');
+            //if (document.readyState == 'complete') {
+            //    setClearTextTimer('.username-login');
+            //    setClearTextTimer('.password-login');
+            //}
+        });
+    </script>
+    <!-- WebSite [20150819-141000] PILOT -->
+    <!-- WebService [20151015-120000] UAT -->
+<link href="../App_Themes/KOLSkin/hint.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/KOLSkin/KOLStyle.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <!--[if IE]><script src="/BAY.KOL.Corp.WebSite/js/html5.js"></script><![endif]-->
+
+    <script type="text/javascript" src="/BAY.KOL.Corp.WebSite/js/jquery-1.10.2.min.js?version=20151026.01"></script>
+    <script type="text/javascript" src="/BAY.KOL.Corp.WebSite/js/jquery.stellar.min.js?version=20151026.01"></script>
+    <script type="text/javascript" src="/BAY.KOL.Corp.WebSite/js/waypoints.min.js?version=20151026.01"></script>
+    <script type="text/javascript" src="/BAY.KOL.Corp.WebSite/js/jquery.easing.1.3.js?version=20151026.01"></script>
+    <script type="text/javascript" src="/BAY.KOL.Corp.WebSite/js/jquery.html5-placeholder-shim.js?version=20151026.01"></script>
+    <script type="text/javascript" src="/BAY.KOL.Corp.WebSite/theme/sme/js/scripts-login.js?version=20151026.01"></script>
+
+    <form name="aspnetForm" method="post" action="./Login.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm" autocomplete="off">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/BAY.KOL.Corp.WebSite/WebResource.axd?d=mHC6A-euUSJ4Rxr9uDG1chaClHYdk9ROkiITdky10VJq7khM2-_wm3rj7z57lcK3CBsnSBLkbI0XVGeWd1RrljwHIM2dgx4VFn3Uo_idP2c1&amp;t=638568856745067788" type="text/javascript"></script>
+
+
+<script src="/BAY.KOL.Corp.WebSite/ScriptResource.axd?d=543WOdWAB_VPSdJHPywZSNVYRDkylYbSdU28TqrP2o-_pGyvPi7TkCz7Lg0_YuNr48qFBkKVQpkAdVNDEIqq7IgwDxlKoGJG84jV_OjfWrZ8aVlGz_Ikr4uypnoZIQZJT4Lyn2m-6YWUchoI8eq8nl6P1Mm4CwBGfAIOhk78dUo1&amp;t=7266186d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"th-TH","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"฿","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["๐","๑","๒","๓","๔","๕","๖","๗","๘","๙"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402275599999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"\u0027วัน\u0027dddd\u0027ที่\u0027 d MMMM yyyy H:mm:ss","LongDatePattern":"\u0027วัน\u0027dddd\u0027ที่\u0027 d MMMM yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"d MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"d/M/yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],"ShortestDayNames":["อา","จ","อ","พ","พฤ","ศ","ส"],"DayNames":["อาทิตย์","จันทร์","อังคาร","พุธ","พฤหัสบดี","ศุกร์","เสาร์"],"AbbreviatedMonthNames":["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.",""],"MonthNames":["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม",""],"IsReadOnly":false,"NativeCalendarName":"คริสต์ศักราช","AbbreviatedMonthGenitiveNames":["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค.",""],"MonthGenitiveNames":["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม",""]},"eras":[1,"ค.ศ.",null,0]};//]]>
+</script>
+
+<script src="/BAY.KOL.Corp.WebSite/ScriptResource.axd?d=okenob7dtIyASqMTTyWb1fPKKNbI-XeInB1TOFOsPgpvMVVeMBBhXeMNP9hH-dM8w9qNTeFMRSAMyioCu_AgH-qrz_Ukw5zkgooSJwFQIxnCyE1ef481HtBVQQrsDDaylrcNcnNMwp4KDnJ2GLyyZgLslE4_sLunss-sTK85Fzs1&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<script src="/BAY.KOL.Corp.WebSite/ScriptResource.axd?d=cfX3oiVUfIDttYd_wxhu-UAezygRx1nF7gfdFgHneTaebvasdHLrSfRBa6wZF4mGEAAXNOIEENmm6MHqAs6itqk8e92IlnzCVHdy6fmgXoI57IQbE6qreK_faWk8QcTjzJ58vsvqC-qvG-Fbz-GCcaqfTPGCC9UYg6BRl3uGZ_Dka72Ewofp6S5IJpBY0DUi0&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<script src="/BAY.KOL.Corp.WebSite/WebResource.axd?d=yX8QTKLxRP22zPf8kiHRo09FgNIpJCljK0d4h15_b-pMwyuITMo0tx-eWpD6n7mvuQ1iIDRVGTMz2KjPvARy8DDo58cVk0c3WC5vuAZaCpE1&amp;t=638568856745067788" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0851128D" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="Y56bYqRAD5w6yXvL6uBC05Fdpf_mBCGK1wXIvPLzeAtJctxpoexPpLM-ZSRXMSHZ18i3sNKNJYGMf3nFDmU1TPCUrvVojj8JhDU1fLd34aJ7WidYn-z5wJos1a0hVgPF0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="3hMXyVvG+qKqp7YIeowlwVIyVjo0kVq4kXtwmqorDi53FvB96EQdFit8bsZvnxOh4hbXXWCKY5VvC3RbEn3goXhWJylapk+9y+bEgf3cP/AqtUBblt5Qg9bsac6zQBG81xGN5saYUcMnFxwJPMK0pV3qlRPqHhbgOtn33N3JXf7nPf+6MCd8WuXBS9aEv6Opj7XO+ovk6ENxzHeXN2h4svakZ6EMs4BUWEdf+kNbRU+zD8RWyaRXDU60Mh5dlnwK/BKAImLiN3RSsJFz2T4DwDRPYNyJZKWsriQdvhR1tJuGiTTZAX25El0K1UFoPjUhXx+C1MIRu+xPwqHhj0P58a5i1/bsKYKpinKKivkJMVcEfUzooRXfALtxOOaZDXA2bHMf7b1DH3CboNUcPQBbKhjQ8L92GhjMRdlYK5bSoEuOCzbEOkLUvjWWzyiML7hWTTt3YvSXZzC9EyXGuiXP04XQkn8ITwTcVITePz69a8NMRpUuh6heO9ei8O0CXjKl87B13aSZVT3j5DRvEN5DYoGnkIQJPnTl2gs6vPnV7XYaWkjPTcVC/Dnzi9bj/lBqRu4amfh3g8eIq15dDtkMwQ==" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$smMain', 'aspnetForm', [], [], [], 600, 'ctl00');
+//]]>
+</script>
+
+        <script type="text/javascript">
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            //prm.add_pageLoaded(FunctionRequest);
+            //prm.add_endRequest(FunctionRequest);
+            prm.add_pageLoaded(BeginRequestHandler);
+            //prm.add_initializeRequest(FunctionRequest);
+            //$addHandler
+            function BeginRequestHandler(sender, args) {
+//            $('.menu_link_progress').click(function () {
+//                var state = document.getElementById('ctl00_UpdateProgress').style.display;
+//                //alert(state);
+//                if (state == 'block') {
+//                    document.getElementById('ctl00_UpdateProgress').style.display = 'none';
+//                }
+//                else {
+//                    document.getElementById('ctl00_UpdateProgress').style.display = 'block';
+                //                }
+                //                if (browser == 'msie' && parseFloat(browser_version) < parseFloat('11')) {
+                //                    var _postBackElement = args.get_postBackElement();
+                //                    if (_postBackElement)
+                //                        _postBackElement.disabled = true;
+                //                }
+                //                else {
+                //                    //alert(browser_version);
+                //                }
+                //            });
+
+                $('.button-login').click(function () {
+                    refreshPlaceholders($('.username-login'), $('.password-login'));
+                });
+
+                WrapSizeAnnouncement();
+            }
+
+
+            function WrapSizeAnnouncement() {
+                try {
+                    var imgSystemAnno = $('#ctl00_imgSystemAnno');
+
+                    if (imgSystemAnno && $('#ctl00_imgSystemAnno').attr('id')) {
+                        $('.announcementbox_content').css('margin', '0px');
+                        $('.announcementbox_content').width('452');
+                        $('.announcementbox_content').height('192');
+                        $('.announcementbox_content').css('text-align', 'center');
+                        var dvWidth = 452;
+                        var dvHeight = 192;
+                        var dvArea = dvWidth * dvHeight;
+                        var imgWidth = imgSystemAnno.width();
+                        var imgHeight = imgSystemAnno.height();
+                        var imgArea = imgWidth * imgHeight;
+                        var wRatio = 0;
+                        var hRatio = 0;
+                        if (imgWidth > imgHeight) {
+                            if (imgWidth <= dvWidth && imgHeight <= dvHeight)
+                                return;
+                            wRatio = dvWidth / imgWidth;
+                            hRatio = dvHeight / imgHeight;
+
+                            imgSystemAnno.width(imgWidth * Math.min(wRatio, hRatio));
+                            imgSystemAnno.height(imgHeight * Math.min(wRatio, hRatio));
+
+                        }
+                        else {
+                            if (imgWidth <= dvWidth && imgHeight <= dvHeight)
+                                return;
+                            wRatio = dvWidth / imgWidth;
+                            hRatio = dvHeight / imgHeight;
+                            imgSystemAnno.width(imgWidth * Math.min(wRatio, hRatio));
+                            imgSystemAnno.height(imgHeight * Math.min(wRatio, hRatio));
+
+                        }
+
+                    }
+                } catch (ex) {
+
+                }
+			}
+
+			$(document).ready(function () {
+
+				if ('KBOL' === 'FX') {
+					$('#slide2,#slide3,#slide4').hide();
+				}
+				
+			});
+			
+        </script>
+
+        
+		<input type="hidden" name="ctl00$hddApplicationMode" id="ctl00_hddApplicationMode" value="KBOL" />
+        <div class="loginbox">
+            <div class="loginbox_content">
+                <div class="loginbox_title">
+                    กรุงศรี บิซ ออนไลน์
+                </div>
+                
+    
+
+    
+    
+    
+
+
+        
+                
+
+            
+    <div style="display:none;">
+        
+        <input type="hidden" name="ctl00$cphLoginBox$hddPWD" id="ctl00_cphLoginBox_hddPWD" />
+        
+        <input type="hidden" name="ctl00$cphLoginBox$hddLanguage" id="ctl00_cphLoginBox_hddLanguage" value="TH" />
+    </div>
+
+    <div id="ctl00_cphLoginBox_vs1" style="color:Red;font-size:8pt;display:none;">
+
+</div>
+	<div class="loginbox_loginform">
+        <div id="ctl00_cphLoginBox_divSME" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_cphLoginBox_btnLoginSME&#39;)">
+	
+            <div class="loginbox_input">
+                <input type="text" style="position:fixed;top:-999px" class="fake" name="username" />
+                <input type="password" style="position:fixed;top:-999px" class="fake" name="password" />
+                <input name="ctl00$cphLoginBox$txtUsernameSME" type="text" id="ctl00_cphLoginBox_txtUsernameSME" class="username-login" autocomplete="off" placeholder="รหัสประจำตัว" />
+                <span id="ctl00_cphLoginBox_ctvSMEUserName" style="color:Red;display:none;"></span>
+		    </div>
+		    <div class="loginbox_input">
+                <input name="ctl00$cphLoginBox$txtPasswordSME" type="password" id="ctl00_cphLoginBox_txtPasswordSME" class=" password-login password2" autocomplete="off" placeholder="รหัสผ่าน" />
+                <span id="ctl00_cphLoginBox_ctvSMEPassword" style="color:Red;display:none;"></span>
+                <input type="hidden" name="ctl00$cphLoginBox$hdPassword" id="ctl00_cphLoginBox_hdPassword" />
+		    </div>
+		    <div id="ctl00_cphLoginBox_pnlLoginBox" class="loginbox_loginbutton">
+		
+                <input type="submit" name="ctl00$cphLoginBox$btnLoginSME" value="Login" onclick="return false; //;" id="ctl00_cphLoginBox_btnLoginSME" style="display:none;" /> 
+                <input type="button" name="ctl00$cphLoginBox$imgLogin" value="" onclick="CClick();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphLoginBox$imgLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" id="ctl00_cphLoginBox_imgLogin" class="button-login loginscript2" AlternateText="" />
+		    
+	</div>
+        
+</div>
+
+        <input type="hidden" name="ctl00$cphLoginBox$hdLogin" id="ctl00_cphLoginBox_hdLogin" />
+        
+	</div>
+
+    <style>
+        .bulletChorm
+        {
+           
+        }
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .bulletChorm
+            {
+                font-size:9px !important;
+            }
+        }    
+    </style>
+
+    <script type="text/javascript">
+        try {
+            if (Sys.WebForms.PageRequestManager)
+                AppInit();
+            else
+                Sys.Application.add_init(AppInit);
+        } catch (e) { }
+        function AppInit() {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(KOLLoginEndRequest);
+        }
+
+        jQuery(document).ready(function () {
+            try {
+                onPageLoad();
+
+                //#region (fix audit enter remember password firefox v.43.0.2 up)
+                $('#ctl00_cphLoginBox_txtUsernameSME').keydown(function (e) {
+                    //e.preventDefault();
+                    if (e.keyCode == 13)
+                        return false;
+                });
+                $('#ctl00_cphLoginBox_txtPasswordSME').keydown(function (e) {
+                    //e.preventDefault();
+                    if (e.keyCode == 13)
+                        return false;
+                });
+                //#endregion
+            } catch (e) {
+            }
+        });
+
+        function KOLLoginEndRequest(sender, agrs) {
+            try {
+                onPageLoad();
+
+                var text = '';
+
+                Sys.WebForms.PageRequestManager.getInstance().add_removeRequest(KOLLoginEndRequest);
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(KOLLoginEndRequest);
+            } catch (e) {
+            }
+        }
+
+        function onPageLoad() {
+            try {
+                $(document.forms).attr('action', 'Login.aspx');
+            } catch (e) {
+            }
+        }
+
+        function CheckUserName(source, arguments) {
+            try {
+                var _value = arguments.Value;
+                var isSuccess = true;
+                // check null or empty
+                if (_value && _value != undefined && _value != '')
+                    isSuccess = true;
+                else
+                    isSuccess = false;
+
+                arguments.IsValid = isSuccess;
+            } catch (e) {
+                
+            } finally {
+                try {
+                    var iderr = source.id;
+                    var validate1 = window[iderr];
+
+                    if (validate1)
+                        validate1.errormessage = source.errormessage;
+                    loadValidationError(source, source.errormessage, source);
+                }
+                catch (e) {
+                }
+
+                try {
+                    if (jQuery.placeholder) { jQuery.placeholder.shim(); }
+                    $('#' + source.controltovalidate).triggerHandler('blur');
+                }
+                catch (e) {
+                }
+            }
+        }
+
+        function CheckPassword(source, arguments) {
+            try {
+                var _isSuccess = true;
+
+                var realPassword = $('#ctl00_cphLoginBox_hdPassword');
+                var err_msg = 'กรุณาใส่รหัสผ่านเพื่อเข้าสู่บริการ';
+
+
+                //if (realPassword != undefined && realPassword.val() != "")
+                //    _isSuccess = true;
+
+                // Require value
+                if (_isSuccess) {
+                    if (realPassword != undefined && realPassword.val() == "" || realPassword.val() == null || realPassword.val() == undefined) {
+                        _isSuccess = false;
+                        source.errormessage = err_msg;
+                }
+                }
+
+                if (_isSuccess)
+                    arguments.IsValid = true;
+                else
+                    arguments.IsValid = false;
+            } catch (ex) {
+                //arguments.IsValid = true;
+            } finally {
+
+                try {
+                    RefreshErrorMessage(source, source.errormessage);
+                    RefreshPlateHolder(source.controltovalidate);
+
+                    if (jQuery.placeholder) { jQuery.placeholder.shim(); }
+                    $('#' + source.controltovalidate).triggerHandler('blur');
+                }
+                catch (e) {
+                }
+            }
+        }
+
+        function CheckLogin() {
+            try {
+                var isValid = Page_ClientValidate();
+
+                if (isValid) {
+                    document.getElementById('ctl00_UpdateProgress').style.display = 'block';
+                }
+            } catch (e) {
+                document.getElementById('ctl00_UpdateProgress').style.display = 'none';
+            } finally {
+            }
+        }
+
+        function CClick() {
+            try {
+                var username = $('#ctl00_cphLoginBox_txtUsernameSME');
+                    var password = $('#ctl00_cphLoginBox_txtPasswordSME');
+                    var hdPassword = $('#ctl00_cphLoginBox_hdPassword');
+
+                    if (username.val() != "" && password.val() != "") {
+                        hdPassword.val(password.val());
+                        password.val("");
+                        password.prop('type', 'text');
+                    }
+                } catch (e) {
+                }
+         }
+
+        $(function () {
+            var formxxx1 = this.forms[0];
+            var formxxx2 = this.forms[0];
+
+
+            $(formxxx1).attr('autocomplete', 'off');
+
+            $('input[type=text]').each(function (i) {
+                var textBox = $(this);
+
+                $(textBox).attr('autocomplete', 'off');
+            });
+
+            $('input[type=password]').each(function (i) {
+                var textBox = $(this);
+
+                $(textBox).attr('autocomplete', 'off');
+            });
+
+
+            onPageLoad();
+
+        });
+
+        function beforeLogin(mode) {
+            if (mode == undefined) mode = 1;
+            var pwd = '';
+            var pwd1 = $('#ctl00_cphLoginBox_hddPWD');
+
+            if (mode == 1) {
+                pwd = $('.password1').val();
+            } else if (mode == 2) {
+                pwd = $('.password2').val();
+            }
+            $(pwd1).val(pwd);
+
+            $('.password1').val('');
+            $('.password2').val('');
+
+            return true;
+        }
+    </script>
+                
+    
+
+                <div class="loginbox_line">
+                </div>
+                <div class="loginbox_actionlink">
+                    <a id="ctl00_lnkForgotPwd" href="javascript:__doPostBack(&#39;ctl00$lnkForgotPwd&#39;,&#39;&#39;)">ลืมรหัสผ่าน/ปลดล็อครหัสผู้ใช้?
+                        <img alt="" class="loginbox_actionlink_image" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/icon_link_loginbox.png" />
+                    </a>
+                </div>
+                <div class="loginbox_actionlink">
+                    <a id="ctl00_lnkRegister" href="javascript:__doPostBack(&#39;ctl00$lnkRegister&#39;,&#39;&#39;)">สมัครบริการกรุงศรีบิซออนไลน์
+                        <img alt="" class="loginbox_actionlink_image" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/icon_link_loginbox.png" />
+                    </a>
+                </div>
+                <div class="loginbox_actionlink">
+                    <a id="ctl00_lnkReqTempPwd" href="javascript:__doPostBack(&#39;ctl00$lnkReqTempPwd&#39;,&#39;&#39;)">ขอออกรหัสผ่านชั่วคราวใหม่
+                        <img alt="" class="loginbox_actionlink_image" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/icon_link_loginbox.png" />
+                    </a>
+                </div>
+                <div class="loginbox_line">
+                </div>
+                <div id="ctl00_clearfix" class="clearfix">
+                    <div class="loginbox_actionlink loginbox_actionlink_25 alignleft">
+                        <a onclick="window.open(&#39;/BAY.KOL.Corp.WebSite/Common/CommonService/ServiceFeatures.aspx&#39;, &#39;PopupSecurityAler&#39;,&#39;top=0,left=50,width=820,height=550,directories=no,location=no,menubar=no,resizable=1,scrollbars=yes,status=no,toolbar=no&#39;); return false;//;" id="ctl00_ltr003" href="javascript:__doPostBack(&#39;ctl00$ltr003&#39;,&#39;&#39;)">บริการ</a>
+                    </div>
+                    <div class="loginbox_actionlink loginbox_actionlink_50 aligncenter">
+                        <a onclick="window.open(&#39;/BAY.KOL.Corp.WebSite/Common/HowToApply/HowToApply.aspx&#39;, &#39;PopupSecurityAler&#39;,&#39;top=0,left=50,width=820,height=550,directories=no,location=no,menubar=no,resizable=1,scrollbars=yes,status=no,toolbar=no&#39;); return false;//;" id="ctl00_ltr004" href="javascript:__doPostBack(&#39;ctl00$ltr004&#39;,&#39;&#39;)">วิธีการสมัคร</a>
+                    </div>
+                    <div class="loginbox_actionlink loginbox_actionlink_25 alignright">
+                        <a onclick="window.open(&#39;/BAY.KOL.Corp.WebSite/Common/FAQs/FAQs.aspx&#39;, &#39;PopupSecurityAler&#39;,&#39;top=0,left=50,width=820,height=550,directories=no,location=no,menubar=no,resizable=1,scrollbars=yes,status=no,toolbar=no&#39;); return false;//;" id="ctl00_ltr005" href="javascript:__doPostBack(&#39;ctl00$ltr005&#39;,&#39;&#39;)">คำถาม</a>
+                    </div>
+                </div>
+                <div id="ctl00_loginbox_line3" class="loginbox_line">
+                </div>
+                <div class="clearfix">
+                    <div class="loginbox_actionlink loginbox_actionlink_33 aligncenter">
+                        <a onclick="window.open(&#39;/BAY.KOL.Corp.WebSite/Common/SecurityAlert/SecurityAlert.aspx&#39;, &#39;PopupSecurityAlert&#39;,&#39;top=0,left=50,width=820,height=550,directories=no,location=no,menubar=no,resizable=1,scrollbars=yes,status=no,toolbar=no&#39;); return false;//;" id="ctl00_lbtnSecurityAlert" href="javascript:__doPostBack(&#39;ctl00$lbtnSecurityAlert&#39;,&#39;&#39;)">
+                        <img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/icon_warning.png" />
+                        </a>
+                    </div>
+                    <div class="loginbox_actionlink loginbox_actionlink_33 aligncenter">
+                        <a href="#" onclick="window.open('https://www.krungsri.com/bank/th/Bank-Locations-and-Branches/BranchLocations.html', 'PopupLocation','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">
+                            <img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/icon_location.png" /></a>
+                    </div>
+                    <div class="loginbox_actionlink loginbox_actionlink_33 aligncenter">
+                        <a onclick="window.open(&#39;/BAY.KOL.Corp.WebSite/Common/Utilities/ExchangeRate.aspx&#39;, &#39;PopupExchangeRate&#39;,&#39;top=0,left=50,width=820,height=550,directories=no,location=no,menubar=no,resizable=1,scrollbars=yes,status=no,toolbar=no&#39;); return false;//;" id="ctl00_lbtnExchange" href="javascript:__doPostBack(&#39;ctl00$lbtnExchange&#39;,&#39;&#39;)">
+                        <img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/icon_exchange.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="login_topcontainer">
+            <div class="login_topbar">
+                <div class="login_topbar_content">
+                    <div class="login_topbar_title">
+                        <a href="http://www.krungsri.com">krungsri.com</a>
+                    </div>
+                    <div class="login_topbar_language">
+                        
+                        <a id="ctl00_lnkThai" class="current" href="javascript:__doPostBack(&#39;ctl00$lnkThai&#39;,&#39;&#39;)">ไทย</a>
+                    </div>
+                    |
+                    <div class="login_topbar_language">
+                        
+                        <a id="ctl00_lnkEnglish" href="javascript:__doPostBack(&#39;ctl00$lnkEnglish&#39;,&#39;&#39;)">English</a>
+                    </div>
+                </div>
+            </div>
+            <div class="login_toplogo"></div>
+        </div>
+        <div id="ctl00_slide1" class="slide1-image-bg-kbol slide1-mobile-image-bg-kbol" data-slide="1" data-stellar-background-ratio="0.5">
+
+            <div id="ctl00_loginSlideKbol" class="login_slide_content" data-stellar-ratio="2">
+				<div class="login_slide_title">Simplify Your Banking</div>
+				<div class="login_slide_content_line"></div>
+				<div class="login_slide_text_shadow">
+					Spend less time<br />
+					on your transaction banking<br />
+					and more time on your business. </div><div class="login_slide_yellowbar">
+				</div>
+            </div>
+
+			
+        </div>
+        <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="1">
+            <div class="login_slide_content" data-stellar-ratio="2">
+                <div class="login_slide_title">Grow Faster with</div>
+                <div class="login_slide_subtitle">Krungsri Biz Online Banking Service.</div>
+                <div class="login_slide_content_line"></div>
+                <div class="login_slide_text_shadow">
+                    You have goals...<br class="mobileonly_inline" />
+                    We have solutions...<br />
+                    We are with you every step of the way.
+                </div>
+            </div>
+        </div>
+        <div class="slide notmobile" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+            <div class="login_slide_content" data-stellar-ratio="2">
+                <div class="login_slide_title">
+                    More Online Solutions<br />
+                    for Corporate
+                </div>
+                <div class="login_slide_content_line"></div>
+                <div class="login_slide_text_shadow">To answer your business needs</div>
+                <br />
+                <div class="login_slide_content_linkbutton" style="padding-bottom: 10px">
+                    <a id="ctl00_lbtnBusinessLink" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lbtnBusinessLink&quot;, &quot;&quot;, false, &quot;&quot;, &quot;https://www.krungsribusinesslink.com&quot;, false, true))">
+                        <img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/button_business_link.png" />
+                        
+                        
+                    </a>
+                    <div class="tooltip-login">
+                        <img src="../Images/icon_info.png" style="border-width:0px;padding-bottom: 40px" />
+                        <span id="ctl00_businessLinkTooltip" class="tooltiptext">แพลตฟอร์มออนไลน์สำหรับธุรกิจ เพื่อเจรจาจับคู่นำเสนอผลิตภัณฑ์<br/>และหาพันธมิตรธุรกิจใหม่ๆ ผ่านเครือข่ายกรุงศรี และ MUFG</span>
+
+                    </div>
+
+                </div>
+                <div class="login_slide_content_linkbutton">
+                    <a id="ctl00_lbtnCashLink" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lbtnCashLink&quot;, &quot;&quot;, false, &quot;&quot;, &quot;https://www.krungsri.com/corporate/th/cashlink_landing.aspx&quot;, false, true))"><img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/button_cash_link.png" /></a>
+                </div>
+                <div class="login_slide_content_dashline"></div>
+                <div class="login_slide_content_linkbutton">
+                    <a onclick="window.open(&#39;https://www.krungsritradelink.com/allnett_oxbayd2/login&#39;, &#39;_self&#39;); return false;" id="ctl00_lbtnTradeLink" href="javascript:__doPostBack(&#39;ctl00$lbtnTradeLink&#39;,&#39;&#39;)"><img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/button_trade_link.png" /></a>
+                </div>
+                <div class="login_slide_text_shadow">
+                    <span>บริการธุรกรรมด้านการเงินออนไลน์</span><br />
+                    <span>สำหรับลูกค้าธุรกิจขนาดใหญ่และสถาบัน</span>
+                </div>
+            </div>
+        </div>
+        <div class="slide notmobile" id="slide4" data-slide="4" data-stellar-background-ratio="1">
+            <div class="login_slide_content" data-stellar-ratio="1.5">
+                <div class="login_slide_bigtitle_gray">
+                    Smartphone &amp; Tablet
+                </div>
+                <div class="login_slide_bigtitle_yellow">
+                    Compatible
+                </div>
+                <br />
+                <div class="login_slide_text">
+                    You can enjoy the whole new experience of Internet Banking Service with Krungsri
+                Online, the service that enables you to manage all variations of your financial
+                transactions anywhere, anytime.
+                </div>
+            </div>
+            <div class="login_slide_graybottom_bg">
+            </div>
+            <div class="login_slide_smartphone_bg">
+            </div>
+        </div>
+        <div class="login_footer">
+            <div class="login_footer_content">
+                <div class="login_footer_title_yellow">
+                    <span>ศูนย์บริการข้อมูล</span>
+                </div>
+                <br />
+                <div class="clearfix">
+                    <div class="login_footer_title_yellow">
+                        <span>0 2626 2626</span>
+                    </div>
+                    <div class="login_footer_title_white">
+                        <span>ศูนย์บริการลูกค้าธุรกิจ</span>
+                    </div>
+                    <br />
+                    <div class="login_footer_title_yellow">
+                        <span>1572</span>
+                    </div>
+                    <div class="login_footer_title_white">
+                        <span>ศูนย์บริการลูกค้าบุคคล</span>
+                    </div>
+                    <br />
+                </div>
+                <div class="login_footer_line notmobile">
+                </div>
+                <div class="login_footer_columns notmobile">
+                    <div class="login_footer_column">
+                        <div class="login_footer_link_yellow"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts.html', 'PopupDeposit','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">ผลิตภัณฑ์เงินฝาก</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts/CurrentAccount.html', 'PopupCurrentAcc','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">บัญชีกระแสรายวัน</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts/SavingsDeposit.html', 'PopupSavingsAcc','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">บัญชีออมทรัพย์</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts/TimeDeposits/GeneralTimeDeposit.html', 'PopupFixedAcc','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">บัญชีเงินฝากประจำ</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts/ForeignCurrencyDeposit.html', 'PopupFCD','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">บัญชีเงินฝากเงินตราต่างประเทศ</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts/ChequeExpress.html', 'PopupChequeExp','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">บริการเบิกถอนบัญชีกระแสรายวันต่างสาขา</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/DepositProducts/ChequeClearingService.html', 'PopupChequeCS','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">บริการรับฝากเช็คเคลียริ่ง</a></div>
+                    </div>
+                    <div class="login_footer_column">
+                        <div class="login_footer_link_yellow"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriCorporate.html', 'PopupKCorp','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ลูกค้าองค์กร</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriCorporate/KrungsriCashManagement.html', 'PopupKCorpCashM','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">บริการบริหารเงินสด</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriCorporate/TradeServices.html', 'PopupKCorpTS','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">บริการธุรกิจการค้าต่างประเทศ</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriCorporate/CreditFacilities.html', 'PopupKCorpCF','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">บริการสินเชื่อเพื่อลูกค้าธุรกิจขนาดใหญ่</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriCorporate/InvestmentBanking.html', 'PopupKCorpIMB','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">บริการวาณิชธนกิจ</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriCorporate/SecuritiesServices.html', 'PopupKCorpSS','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">บริการธุรกิจหลักทรัพย์</a></div>
+                    </div>
+                    <div class="login_footer_column">
+                        <div class="login_footer_link_yellow"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriSME.html', 'PopupKSME','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ลูกค้าธุรกิจ SME</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriSME/SMELoan.html', 'PopupKSMELoan','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">สินเชื่อ SME</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriSME/SupplyChain/KrungsriValueChainSolution.html', 'PopupKSMESupplyChain','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ซัพพลายเชน</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriSME/TradeServices.html', 'PopupKSMETS','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">บริการธุรกิจการค้าต่างประเทศ</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/KrungsriSME/bm/Business-matching.html', 'PopupKSMEBusiM','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">Other Financial Service</a></div>
+                    </div>
+                    <div class="login_footer_column">
+                        <div class="login_footer_link_yellow"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/BancassuranceProducts.html', 'PopupBancProd','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ผลิตภัณฑ์ประกันภัย</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/BancassuranceProducts.html', 'PopupBancProd','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ประกันชีวิต</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/BancassuranceProducts.html', 'PopupBancProd','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ประกันวาตภัยอัคคีภัย</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/PersonalBanking/BancassuranceProducts.html', 'PopupBancProd','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">Fire Insurance</a></div>
+                    </div>
+                    <div class="login_footer_column">
+                        <div class="login_footer_link_yellow"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/Contact/Bank-of-Ayudhya-Public-Company-Limited.html', 'PopupContact','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ติดต่อธนาคาร</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/Contact/Bank-of-Ayudhya-Public-Company-Limited.html', 'PopupContact','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">กรุงศรีสำนักงานใหญ่</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/Contact/SMEContact.html', 'PopupContactSME','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">ศูนย์ธุรกิจ SME</a></div>
+                        <div class="login_footer_link_white"><a href="#" onclick="window.open('https://www.krungsri.com/bank/th/Bank-Locations-and-Branches/BranchLocations.html', 'PopupLoaction','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//" title="">แผนที่</a></div>
+                    </div>
+                </div>
+                <div class="login_footer_copyright notmobile">
+                    สงวนสิทธิ์ ธนาคารกรุงศรีอยุธยา จำกัด (มหาชน) พ.ศ. 2557
+                    
+                    <a href="#" onclick="window.open('https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=www.krungsribizonline.com&lang=en', 'PopupVerisign','top=0,left=50,width=820,height=550,directories=yes,location=yes,menubar=yes,resizable=1,scrollbars=yes,status=no,toolbar=no'); return false;//">
+                                    <img alt="" src="/BAY.KOL.Corp.WebSite/theme/sme/images-login/button_verisign.png" style="margin-left: 20px;" /></a>
+                </div>
+            </div>
+        </div>
+        <div id="ctl00_UpdateProgress" style="display:none;">
+	
+                <div class="waitingsign">
+                    <div class="waitingsign_box">
+                        <div class="waitingsign_imagerow">
+                            
+                            <img alt="" class="waitingsign_image" src="/BAY.KOL.Corp.WebSite/theme/sme/images-main/waitingsign.gif" />
+                        </div>
+                        <div class="waitingsign_text">
+                            กำลังดำเนินการ... กรุณารอสักครู่
+                        </div>
+                    </div>
+                </div>
+            
+</div>
+
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ctl00_cphLoginBox_vs1"));
+var Page_Validators =  new Array(document.getElementById("ctl00_cphLoginBox_ctvSMEUserName"), document.getElementById("ctl00_cphLoginBox_ctvSMEPassword"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_cphLoginBox_ctvSMEUserName = document.all ? document.all["ctl00_cphLoginBox_ctvSMEUserName"] : document.getElementById("ctl00_cphLoginBox_ctvSMEUserName");
+ctl00_cphLoginBox_ctvSMEUserName.controltovalidate = "ctl00_cphLoginBox_txtUsernameSME";
+ctl00_cphLoginBox_ctvSMEUserName.errormessage = "กรุณาใส่รหัสประจำตัวเพื่อเข้าสู่บริการ";
+ctl00_cphLoginBox_ctvSMEUserName.display = "None";
+ctl00_cphLoginBox_ctvSMEUserName.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctl00_cphLoginBox_ctvSMEUserName.clientvalidationfunction = "CheckUserName";
+ctl00_cphLoginBox_ctvSMEUserName.validateemptytext = "true";
+var ctl00_cphLoginBox_ctvSMEPassword = document.all ? document.all["ctl00_cphLoginBox_ctvSMEPassword"] : document.getElementById("ctl00_cphLoginBox_ctvSMEPassword");
+ctl00_cphLoginBox_ctvSMEPassword.controltovalidate = "ctl00_cphLoginBox_txtPasswordSME";
+ctl00_cphLoginBox_ctvSMEPassword.errormessage = "กรุณาใส่รหัสผ่านเพื่อเข้าสู่บริการ";
+ctl00_cphLoginBox_ctvSMEPassword.display = "None";
+ctl00_cphLoginBox_ctvSMEPassword.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctl00_cphLoginBox_ctvSMEPassword.clientvalidationfunction = "CheckPassword";
+ctl00_cphLoginBox_ctvSMEPassword.validateemptytext = "true";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+(function(id) {
+    var e = document.getElementById(id);
+    if (e) {
+        e.dispose = function() {
+            Array.remove(Page_ValidationSummaries, document.getElementById(id));
+        }
+        e = null;
+    }
+})('ctl00_cphLoginBox_vs1');
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        WebForm_AutoFocus('ctl00_cphLoginBox_txtUsernameSME');
+document.getElementById('ctl00_cphLoginBox_ctvSMEUserName').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_cphLoginBox_ctvSMEUserName'));
+}
+
+document.getElementById('ctl00_cphLoginBox_ctvSMEPassword').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_cphLoginBox_ctvSMEPassword'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":0,"dynamicLayout":true}, null, null, $get("ctl00_UpdateProgress"));
+});
+//]]>
+</script>
+</form>
+
+    
+    <script type="text/javascript">
+        function refreshPlaceholders(uid, pwd) {
+            $(window).trigger('resize');
+
+            $(uid).trigger('blur');
+            $(pwd).trigger('blur');
+        }
+
+
+    </script>
+
+</body>
+</html>

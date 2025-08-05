@@ -1,0 +1,18 @@
+Host: www.krungsribizonline.com
+Connection: keep-alive
+Content-Length: 2
+sec-ch-ua-platform: "Windows"
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: application/json, text/javascript, */*; q=0.01
+sec-ch-ua: "Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"
+Content-Type: application/json; charset=UTF-8
+sec-ch-ua-mobile: ?0
+Origin: https://www.krungsribizonline.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.krungsribizonline.com/BAY.KOL.Corp.WebSite/Pages/MyPortfolio.aspx
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: th,en;q=0.9
+Cookie: ASP.NET_SessionId=0344auc2uotcmyluts0eapgl; PD_STATEFUL_0e5e24c4-2849-11ec-8028-005056963270=%2FBAY.KOL.Corp.WebSite; KS_Cookie=!WVjqRLjIDU4eEkpF2K6W4qRnVN/XG1PPC6uw3trV/zD7sVRCkR2FVQ/E+hCw3yUMadvaxXFuEvtrBc4=; PD-S-SESSION-ID=1_EwBimZHjAed7SEQwa45j+XRqZm7PcGmi4Zr+Quf1c89RF76nId4=_AAAAAAA=_Zi/p76CcEIDGe77/RzayQcuo7s4=; liv_language=TH

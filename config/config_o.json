@@ -1,0 +1,51 @@
+{
+  "test": {
+    "username": "admin_coupe88",
+    "password": "Max#test@1234",
+    "database": "admin_coupe88",
+    "host": "45.32.99.45",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false,
+    "poll": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "development": {
+    "username": "admin_datademo",
+    "password": "Max#loveyou@New",
+    "database": "admin_datademo",
+    "host": "15.235.183.235",
+    "port": 3306,
+    "dialect": "mysql",
+
+    "dialectOptions": {},
+    "logging": true,
+    "poll": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "admin_datademo",
+    "password": "Max#loveyou@New",
+    "database": "admin_datademo",
+    "host": "15.235.183.235",
+    "port": 3306,
+    "dialect": "mysql",
+
+    "dialectOptions": {},
+    "logging": false,
+    "poll": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+
+  "jwt_encryption": "testingApp",
+  "jwt_expiration": "365d"
+}
