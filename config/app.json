@@ -1,0 +1,58 @@
+{
+    "test": {
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_EMAIL_ID": "battlelabtest1@gmail.com",
+        "BASE_URL": "http://localhost:8000",
+        "REQ_BASE_URL": "http://localhost:3000",
+        "WEB_FRONT_BASE_URL": "http://localhost:3000",
+        "PORT": 8000,
+        "WALLET_BASE_URL": "https://dev-connect-wallet.abx.one",
+        "WALLET_Token": "0xDAbb42B832EaF33a26cB4e92cD2c7e18364094ad",
+        "FCM_SERVER_KEY": "AAAA3TCV3nU:APA91bGPGLRIOMZ2vO_EE-0Z4q11T3RWqcMDcKYVpt38QiDbvcmmSlkWrMmfEsbkq-rFd7tkUQtg2DxOTfZR0gxtloDyPISteAlyCaZxWxVQCahKgV_KAmVVBsCOYj27uWD2sl2BWRKW",
+        "accessKeyId": "AKIAZKEAUXBKHC2CMJE5",
+        "secretAccessKey": "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",
+        "region": "ap-southeast-1",
+        "bucketName": "battlelabdemo",
+        "bucketBaseURL": "https://battlelabdemo.s3.ap-southeast-1.amazonaws.com/"
+    },
+    "development": {
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_EMAIL_ID": "guplayonline6@gmail.com",
+        "BASE_URL": "https://apimain.payment-backend88.com",
+        "REQ_BASE_URL": "https://backend.payment-backend88.com",
+        "WEB_FRONT_BASE_URL": "http://localhost:3000",
+        "PORT": 1300,
+        "WALLET_BASE_URL": "https://creative-wildly-muskox.ngrok-free.app",
+        "WALLET_Token": "0xDAbb42B832EaF33a26cB4e92cD2c7e18364094ad",
+        "FCM_SERVER_KEY": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIa+hNij7SOztcEbid5QwTJj6cA1Q+KeR7fmRmP1b9hMYhCNFvxoC9z8MaAKuB6V7RN+ShVd2aB8jiKbW/I4OPw==",
+        "accessKeyId": "AKIAZKEAUXBKHC2CMJE5",
+        "secretAccessKey": "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",
+        "API_KRUNGTHAI_BUS": "http://localhost:1221",
+        "API_SCB_BUS": "https://apiscb-business.payeasy88-xtb.info",
+        "region": "ap-southeast-1",
+        "VVIP_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MCwiZW1haWwiOiJoYXJzaGdzaGFtYmh1d2FuaUBnbWFpbC5jb20iLCJ1c2VyX3R5cGUiOiJlbmR1c2VyIiwiaWF0IjoxNjYxNTA0MTY0LCJleHAiOjE2OTMwNDAxNjR9.n5LFCl7nB_H2yhZueyZ1tEH1P154hO-AduV-APKQowY",
+        "bucketName": "battlelabdemo",
+        "bucketBaseURL": "https://apiufawin89.vvipcorp.org/uploads/"
+    },
+    "production": {
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_EMAIL_ID": "guplayonline6@gmail.com",
+        "BASE_URL": "https://apimain.payment-backend88.com",
+        "REQ_BASE_URL": "https://backend.payment-backend88.com",
+        "WEB_FRONT_BASE_URL": "http://localhost:3000",
+        "PORT": 1300,
+        "WALLET_BASE_URL": "https://creative-wildly-muskox.ngrok-free.app",
+        "API_KRUNGTHAI_BUS": "http://localhost:1221",
+        "API_SCB_BUS": "https://apiscb-business.payeasy88-xtb.info",
+        "WALLET_Token": "0x4316F52586dA4B9E57AFC77d11b86b55bDc13756",
+        "FCM_SERVER_KEY": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIa+hNij7SOztcEbid5QwTJj6cA1Q+KeR7fmRmP1b9hMYhCNFvxoC9z8MaAKuB6V7RN+ShVd2aB8jiKbW/I4OPw==",
+        "accessKeyId": "AKIAZKEAUXBKHC2CMJE5",
+        "secretAccessKey": "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",
+        "region": "ap-southeast-1",
+        "VVIP_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MCwiZW1haWwiOiJoYXJzaGdzaGFtYmh1d2FuaUBnbWFpbC5jb20iLCJ1c2VyX3R5cGUiOiJlbmR1c2VyIiwiaWF0IjoxNjYxNTA0MTY0LCJleHAiOjE2OTMwNDAxNjR9.n5LFCl7nB_H2yhZueyZ1tEH1P154hO-AduV-APKQowY",
+        "bucketName": "battlelabprod",
+        "bucketBaseURL": "https://main.krungthaipay.com/storage/qr/",
+        "bucketBaseURL2": "https://apimain.payment-backend88.com/storage/"
+      
+    }
+}
